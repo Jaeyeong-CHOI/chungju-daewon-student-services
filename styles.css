@@ -318,7 +318,7 @@ img {
   overflow: hidden;
 }
 
-.service-card--meal .service-card__visual {
+.service-card--grade5 .service-card__visual {
   background: var(--coral-soft);
 }
 
@@ -345,8 +345,8 @@ img {
   transform: rotate(-4deg);
 }
 
-.service-card--meal .team-label,
-.service-card--meal .service-link {
+.service-card--grade5 .team-label,
+.service-card--grade5 .service-link {
   background: var(--coral);
 }
 

@@ -51,6 +51,7 @@ const viewports = [
         .length,
       liveLinks: document.querySelectorAll('.service-link:not([aria-disabled="true"])')
         .length,
+      grade5Url: document.querySelector('[data-link="grade5"]')?.href,
       plannerUrl: document.querySelector('[data-link="planner"]')?.href,
       missingImages: [...document.images].filter(
         (image) => !image.complete || image.naturalWidth === 0,
@@ -82,8 +83,10 @@ const viewports = [
     (result) =>
       result.status !== 200 ||
       result.cards !== 3 ||
-      result.disabledLinks !== 2 ||
-      result.liveLinks !== 1 ||
+      result.disabledLinks !== 1 ||
+      result.liveLinks !== 2 ||
+      result.grade5Url !==
+        "https://aidenjo10-stargazer.github.io/5gradeee/" ||
       result.plannerUrl !==
         "https://htw01097057323-cpu.github.io/daewon-suhaeng/" ||
       result.missingImages !== 0 ||

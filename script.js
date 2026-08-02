@@ -1,8 +1,8 @@
 // 실제 서비스가 공개되면 각 url만 교체하세요.
 const services = {
-  meal: {
-    url: "",
-    label: "오늘의 밥상 바로가기",
+  grade5: {
+    url: "https://aidenjo10-stargazer.github.io/5gradeee/",
+    label: "5등급 입시 리포트 바로가기",
   },
   planner: {
     url: "https://htw01097057323-cpu.github.io/daewon-suhaeng/",
