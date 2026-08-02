@@ -47,4 +47,5 @@ NODE_PATH=/path/to/node_modules node scripts/qa.cjs
 
 - 디자인 원본: 사용자 제공 Google Drive ZIP (`대원고 서비스 홈.dc.html`)
 - TEAM 2 산출물: [htw01097057323-cpu/daewon-suhaeng](https://github.com/htw01097057323-cpu/daewon-suhaeng)
+- TEAM 2 카드 이미지: 팀에서 제공한 수행평가 알리미 로고 PNG
 - 학교명 확인: [충주대원고등학교 공식 홈페이지](https://school.cbe.go.kr/daewon-h)
