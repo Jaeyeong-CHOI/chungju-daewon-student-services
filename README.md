@@ -38,6 +38,7 @@ NODE_PATH=/path/to/node_modules node scripts/qa.cjs
 
 ## 배포
 
+- 운영 도메인: `https://daewon-ai.com` (`https://www.daewon-ai.com` 포함)
 - GitHub Pages: `main` 브랜치 루트
 - Cloudflare Tunnel origin: `http://127.0.0.1:5203`
 - macOS LaunchAgent: `ai.openclaw.chungju-daewon-student-services`
