@@ -36,6 +36,9 @@ console error, 가로 overflow를 확인할 수 있습니다.
 NODE_PATH=/path/to/node_modules node scripts/qa.cjs
 ```
 
+Playwright 전용 Chromium이 없다면 `DAEWON_CHROMIUM_EXECUTABLE`에 시스템
+Chrome 실행 파일 경로를 지정할 수 있습니다.
+
 ## 배포
 
 - 운영 도메인: `https://daewon-ai.com` (`https://www.daewon-ai.com` 포함)
@@ -47,7 +50,7 @@ NODE_PATH=/path/to/node_modules node scripts/qa.cjs
 
 - 디자인 원본: 사용자 제공 Google Drive ZIP (`대원고 서비스 홈.dc.html`)
 - TEAM 1 산출물: [aidenjo10-stargazer/5gradeee](https://github.com/aidenjo10-stargazer/5gradeee)
-- TEAM 1 카드 이미지: 공개 서비스의 실제 내신 분석 대시보드 화면
+- TEAM 1 카드 이미지: 팀에서 제공한 5Grade 로고 PNG
 - TEAM 2 산출물: [htw01097057323-cpu/daewon-suhaeng](https://github.com/htw01097057323-cpu/daewon-suhaeng)
 - TEAM 2 카드 이미지: 팀에서 제공한 수행평가 알리미 최종 로고 PNG
 - TEAM 3 산출물: [joon1214/navigation](https://github.com/joon1214/navigation)

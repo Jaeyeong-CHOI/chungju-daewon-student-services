@@ -413,6 +413,11 @@ img {
   object-fit: cover;
 }
 
+.service-card--grade5 .browser-frame img {
+  object-fit: contain;
+  background: #fff;
+}
+
 .service-card__body {
   display: flex;
   padding: 23px 24px 25px;

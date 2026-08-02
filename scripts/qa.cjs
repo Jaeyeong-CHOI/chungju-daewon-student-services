@@ -12,7 +12,11 @@ const viewports = [
 
 (async () => {
   fs.mkdirSync(outputDir, { recursive: true });
-  const browser = await chromium.launch({ headless: true });
+  const executablePath = process.env.DAEWON_CHROMIUM_EXECUTABLE;
+  const browser = await chromium.launch({
+    headless: true,
+    ...(executablePath ? { executablePath } : {}),
+  });
   const results = [];
 
   for (const viewport of viewports) {
