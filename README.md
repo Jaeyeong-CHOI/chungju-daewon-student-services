@@ -6,9 +6,9 @@
 
 - [5등급 입시 리포트](https://aidenjo10-stargazer.github.io/5gradeee/) — 내신 계산·성적 추이·목표 대학 분석
 - [수행평가 알리미](https://htw01097057323-cpu.github.io/daewon-suhaeng/) — 학년·과목별 평가 일정과 마감 알림
-- 자리있어? — 자습실·도서관 좌석 확인
+- [3D 실내 지도](https://joon1214.github.io/navigation/) — 교내 3D 배치도와 최단 경로 안내
 
-TEAM 1과 TEAM 2 서비스는 공개되어 `이용 가능`으로 표시됩니다. TEAM 3은 URL이 확정될 때까지 `준비 중`으로 표시되며, [`script.js`](./script.js)의 `services` 객체에서 `url` 값만 수정하면 공개할 수 있습니다.
+세 팀의 서비스가 모두 공개되어 `이용 가능`으로 표시됩니다. 서비스 주소는 [`script.js`](./script.js)의 `services` 객체에서 관리합니다.
 
 ```js
 meal: {
@@ -50,4 +50,6 @@ NODE_PATH=/path/to/node_modules node scripts/qa.cjs
 - TEAM 1 카드 이미지: 공개 서비스의 실제 내신 분석 대시보드 화면
 - TEAM 2 산출물: [htw01097057323-cpu/daewon-suhaeng](https://github.com/htw01097057323-cpu/daewon-suhaeng)
 - TEAM 2 카드 이미지: 팀에서 제공한 수행평가 알리미 최종 로고 PNG
+- TEAM 3 산출물: [joon1214/navigation](https://github.com/joon1214/navigation)
+- TEAM 3 카드 이미지: 공개 서비스의 실제 3D 캠퍼스 화면
 - 학교명 확인: [충주대원고등학교 공식 홈페이지](https://school.cbe.go.kr/daewon-h)

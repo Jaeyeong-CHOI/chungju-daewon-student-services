@@ -326,7 +326,7 @@ img {
   background: var(--blue-soft);
 }
 
-.service-card--seat .service-card__visual {
+.service-card--navigation .service-card__visual {
   background: var(--green-soft);
 }
 
@@ -355,8 +355,8 @@ img {
   background: var(--blue);
 }
 
-.service-card--seat .team-label,
-.service-card--seat .service-link {
+.service-card--navigation .team-label,
+.service-card--navigation .service-link {
   background: var(--green);
 }
 

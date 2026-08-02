@@ -8,9 +8,9 @@ const services = {
     url: "https://htw01097057323-cpu.github.io/daewon-suhaeng/",
     label: "수행평가 알리미 바로가기",
   },
-  seat: {
-    url: "",
-    label: "자리있어? 바로가기",
+  navigation: {
+    url: "https://joon1214.github.io/navigation/",
+    label: "3D 실내 지도 바로가기",
   },
 };
 
