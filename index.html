@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="충주대원고 학생들이 직접 기획하고 개발한 교내 서비스 모음"
+    />
+    <meta name="theme-color" content="#fffaf0" />
+    <meta property="og:title" content="충주대원고 학생 서비스" />
+    <meta
+      property="og:description"
+      content="우리가 만든, 우리 학교 서비스 세 가지"
+    />
+    <meta property="og:type" content="website" />
+    <title>충주대원고 학생 서비스</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jua&amp;display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#services">서비스 목록으로 바로가기</a>
+
+    <div class="page-shell">
+      <div class="doodle doodle--one" aria-hidden="true"></div>
+      <div class="doodle doodle--two" aria-hidden="true"></div>
+      <div class="doodle doodle--three" aria-hidden="true"></div>
+
+      <header class="hero">
+        <div class="school-badge" aria-label="충주대원고등학교 학생 개발팀">
+          <span class="school-badge__dot" aria-hidden="true"></span>
+          <span>충주대원고등학교</span>
+          <span class="school-badge__times" aria-hidden="true">×</span>
+          <span>학생 개발팀</span>
+        </div>
+
+        <p class="hero__eyebrow">Made by students, for everyone</p>
+        <h1>
+          우리가 만든,<br class="hero__break" /> 우리 학교
+          <span class="highlight">
+            <span>서비스 3가지</span>
+          </span>
+        </h1>
+        <p class="hero__description">
+          학생 세 팀이 학교 구성원 모두를 위해 직접 기획하고 개발했어요.<br />
+          필요한 서비스를 골라 바로 만나 보세요.
+        </p>
+        <a class="hero__scroll" href="#services">
+          서비스 둘러보기
+          <span aria-hidden="true">↓</span>
+        </a>
+      </header>
+
+      <main id="services" class="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-heading__kicker">STUDENT BUILT</p>
+            <h2 id="services-title">학교생활을 조금 더 편하게</h2>
+          </div>
+          <p>
+            매일 찾게 되는 정보부터 잃어버린 물건, 빈자리 확인까지.<br />
+            학생들의 실제 불편에서 시작한 서비스예요.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card service-card--meal" data-service="meal">
+            <div class="service-card__visual">
+              <div class="team-label">TEAM 1</div>
+              <span class="service-card__number" aria-hidden="true">01</span>
+              <div class="browser-frame">
+                <div class="browser-frame__bar" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                </div>
+                <img
+                  src="assets/meal.svg"
+                  alt="급식 식판과 오늘의 메뉴를 표현한 일러스트"
+                  width="520"
+                  height="300"
+                />
+              </div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__title-row">
+                <h3>오늘의 밥상</h3>
+                <span class="service-status" data-status="meal">준비 중</span>
+              </div>
+              <p>
+                오늘 급식 메뉴와 우리 반 시간표를 한눈에! 매일 아침 확인하는
+                우리 학교 필수 서비스예요.
+              </p>
+              <a class="service-link" data-link="meal" aria-disabled="true">
+                <span data-link-label>서비스 준비 중</span>
+                <span class="service-link__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--lost" data-service="lost">
+            <div class="service-card__visual">
+              <div class="team-label">TEAM 2</div>
+              <span class="service-card__number" aria-hidden="true">02</span>
+              <div class="browser-frame">
+                <div class="browser-frame__bar" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                </div>
+                <img
+                  src="assets/lost-found.svg"
+                  alt="분실물 가방을 돋보기로 찾는 모습을 표현한 일러스트"
+                  width="520"
+                  height="300"
+                />
+              </div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__title-row">
+                <h3>찾아줘!</h3>
+                <span class="service-status" data-status="lost">준비 중</span>
+              </div>
+              <p>
+                잃어버린 물건과 주운 물건을 사진으로 공유하는 교내 분실물
+                게시판. 주인을 빠르게 찾아드려요.
+              </p>
+              <a class="service-link" data-link="lost" aria-disabled="true">
+                <span data-link-label>서비스 준비 중</span>
+                <span class="service-link__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--seat" data-service="seat">
+            <div class="service-card__visual">
+              <div class="team-label">TEAM 3</div>
+              <span class="service-card__number" aria-hidden="true">03</span>
+              <div class="browser-frame">
+                <div class="browser-frame__bar" aria-hidden="true">
+                  <span></span><span></span><span></span>
+                </div>
+                <img
+                  src="assets/seats.svg"
+                  alt="자습실 좌석 현황을 표현한 일러스트"
+                  width="520"
+                  height="300"
+                />
+              </div>
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__title-row">
+                <h3>자리있어?</h3>
+                <span class="service-status" data-status="seat">준비 중</span>
+              </div>
+              <p>
+                자습실과 도서관의 빈자리를 실시간으로 확인하고 예약까지.
+                헛걸음할 일이 없어져요.
+              </p>
+              <a class="service-link" data-link="seat" aria-disabled="true">
+                <span data-link-label>서비스 준비 중</span>
+                <span class="service-link__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <section class="note" aria-labelledby="note-title">
+        <div class="note__pin" aria-hidden="true"></div>
+        <p class="note__eyebrow">A SMALL START, A BETTER SCHOOL</p>
+        <h2 id="note-title">불편을 발견하면, 직접 만들어 봅니다.</h2>
+        <p>
+          이곳의 서비스는 학생들의 관찰과 아이디어에서 시작됐어요.<br />
+          작은 코드 한 줄이 더 즐거운 학교생활로 이어지길 바랍니다.
+        </p>
+      </section>
+
+      <footer>
+        <div class="footer__brand">
+          <span class="footer__mark" aria-hidden="true">D</span>
+          <div>
+            <strong>충주대원고 학생 개발팀</strong>
+            <span>Chungju Daewon High School</span>
+          </div>
+        </div>
+        <p>학생이 만들고, 학교가 함께 쓰는 서비스 · <span id="year">2026</span></p>
+      </footer>
+    </div>
+  </body>
+</html>
