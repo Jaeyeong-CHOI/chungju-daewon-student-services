@@ -4,9 +4,9 @@ const services = {
     url: "",
     label: "오늘의 밥상 바로가기",
   },
-  lost: {
-    url: "",
-    label: "찾아줘! 바로가기",
+  planner: {
+    url: "https://htw01097057323-cpu.github.io/daewon-suhaeng/",
+    label: "수행평가 알리미 바로가기",
   },
   seat: {
     url: "",

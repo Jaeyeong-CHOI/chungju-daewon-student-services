@@ -5,10 +5,10 @@
 ## 서비스
 
 - 오늘의 밥상 — 급식과 시간표
-- 찾아줘! — 교내 분실물 게시판
+- [수행평가 알리미](https://htw01097057323-cpu.github.io/daewon-suhaeng/) — 학년·과목별 평가 일정과 마감 알림
 - 자리있어? — 자습실·도서관 좌석 확인
 
-현재 전달된 원본에는 각 서비스 URL이 비어 있어 버튼은 `준비 중`으로 표시됩니다. URL이 확정되면 [`script.js`](./script.js)의 `services` 객체에서 `url` 값만 수정하면 됩니다.
+TEAM 2의 수행평가 알리미는 공개되어 `이용 가능`으로 표시됩니다. 나머지 서비스는 URL이 확정될 때까지 `준비 중`으로 표시되며, [`script.js`](./script.js)의 `services` 객체에서 `url` 값만 수정하면 공개할 수 있습니다.
 
 ```js
 meal: {
@@ -46,4 +46,5 @@ NODE_PATH=/path/to/node_modules node scripts/qa.cjs
 ## 출처
 
 - 디자인 원본: 사용자 제공 Google Drive ZIP (`대원고 서비스 홈.dc.html`)
+- TEAM 2 산출물: [htw01097057323-cpu/daewon-suhaeng](https://github.com/htw01097057323-cpu/daewon-suhaeng)
 - 학교명 확인: [충주대원고등학교 공식 홈페이지](https://school.cbe.go.kr/daewon-h)

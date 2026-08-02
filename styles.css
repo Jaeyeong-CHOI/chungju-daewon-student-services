@@ -322,7 +322,7 @@ img {
   background: var(--coral-soft);
 }
 
-.service-card--lost .service-card__visual {
+.service-card--planner .service-card__visual {
   background: var(--blue-soft);
 }
 
@@ -350,8 +350,8 @@ img {
   background: var(--coral);
 }
 
-.service-card--lost .team-label,
-.service-card--lost .service-link {
+.service-card--planner .team-label,
+.service-card--planner .service-link {
   background: var(--blue);
 }
 

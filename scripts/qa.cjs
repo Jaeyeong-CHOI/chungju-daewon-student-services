@@ -49,6 +49,9 @@ const viewports = [
       cards: document.querySelectorAll(".service-card").length,
       disabledLinks: document.querySelectorAll('.service-link[aria-disabled="true"]')
         .length,
+      liveLinks: document.querySelectorAll('.service-link:not([aria-disabled="true"])')
+        .length,
+      plannerUrl: document.querySelector('[data-link="planner"]')?.href,
       missingImages: [...document.images].filter(
         (image) => !image.complete || image.naturalWidth === 0,
       ).length,
@@ -79,7 +82,10 @@ const viewports = [
     (result) =>
       result.status !== 200 ||
       result.cards !== 3 ||
-      result.disabledLinks !== 3 ||
+      result.disabledLinks !== 2 ||
+      result.liveLinks !== 1 ||
+      result.plannerUrl !==
+        "https://htw01097057323-cpu.github.io/daewon-suhaeng/" ||
       result.missingImages !== 0 ||
       result.horizontalOverflow !== 0 ||
       result.consoleErrors.length > 0 ||
